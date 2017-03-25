@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-def netdraw(ax, layer_sizes, left=0.1, right=0.9, bottom=0.1, top=0.9):
+def netdraw(layer_sizes, alpha_node, connections, scale = 1., left=0.1, right=0.9, bottom=0.1, top=0.9):
     '''
     Draw a neural network cartoon using matplotilb incorporating weights as opacities.
 
